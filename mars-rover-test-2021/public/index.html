@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>mars rover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/src/App.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h2 class="page-title">MARS ROVER</h2>
+    </header>
+    <main class="main-section">
+      <section class="center-left"></section>
+      <h2 class="main-section-title">DEAR TO EXPLORE</h2>
+      <button class="new-rover-btn">
+        <a href="#rover-content">Launch New Rover</a>
+      </button>
+      <section class="center-right">
+        <video autoplay loop>
+          <source src="./utils/mars.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </main>
+    <!-- <section class="rover-section"></section> -->
+    <!-- <section><img src="./utils/mars3.jpg" alt=""></section> -->
+    <section id="rover-content">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <footer class="footer">
+      <!-- <button class="footer-button"><span>New Rover</span></button> -->
+    </footer>
+    <script src="./main.js"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>
